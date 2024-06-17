@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(231, 242, 242);
+}
+.name {
+  background-color: rgb(234, 245, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 12px;
+  text-align: center;
+  background-image: src="Cape Town, South Africa 💫 What a beautiful land!.jpg";
+  margin-bottom: 50px;
+}
+.cape {
+  /*display: flex;
+  margin: auto;*/
+  margin-bottom: 50px;
+
+}
+
+.mountain {
+  padding: 20px;
+}
+
+.table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+caption {
+  caption-side: top;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+
+
+
+@media (min-width: 360px) {
+  .cape {
+    display: block;
+  }
+  /*.subjects {
+    display: flex;
+  }*/
+
+  .item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 760px) {
+  .cape {
+    display: flex;
+  }
+  /*.subjects {
+    display: block;
+  }*/
+
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center; */
+  gap: 20px;
+  
+
+}
+.info {
+  flex: 1 1 30%;
+              max-width: 30%;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              border-radius: 8px;
+              overflow: hidden;
+              text-align: center;
+  }
+
+.historical {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center; */
+    gap: 20px;
+    
+  
+  }
+    .place {
+      flex: 1 1 30%;
+                max-width: 30%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                overflow: hidden;
+                text-align: center;
+    } 
+
+
+
+} 
+.historical {
+  margin-top: 20px;
+}
+.place-info {
+  margin-top: 50px;
+}
+
+
+
+
